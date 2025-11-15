@@ -1,0 +1,49 @@
+name: georgesappfinaldclic
+description: "Application Flutter de gestion de notes (Projet DCLIC – Niveau Intermédiaire)"
+publish_to: 'none' # Empêche la publication accidentelle sur pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icônes iOS / Cupertino
+  cupertino_icons: ^1.0.8
+
+  # Base de données SQLite locale
+  sqflite: ^2.3.3
+
+  # Gestion des chemins et du répertoire local
+  path_provider: ^2.1.3
+  path: ^1.9.0  # ✅ Je l'ai ajouté pour corriger l’erreur “path isn’t a dependency”
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ────────────────────────────────
+  # 🎨 ASSETS (Images, Logos, etc.)
+  # ────────────────────────────────
+  assets:
+    - assets/img/bg_login.png     # Image d’arrière-plan (fond violet)
+    - assets/img/login.jpeg       # Logo de l’écran de connexion
+    - assets/img/app_icon.png     # ✅ Nouvelle icône officielle de mon application
+
+# ────────────────────────────────
+# 🚀 CONFIGURATION AUTOMATIQUE DE L’ICÔNE DE MON APPLICATION
+# ────────────────────────────────
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/img/app_icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true

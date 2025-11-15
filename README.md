@@ -1,2 +1,16 @@
 # georgesappfinaldclic
-# Georges App Final DCLIC  Application Flutter permettant la gestion des utilisateurs et des notes avec une base de données SQLite.  Développée comme projet de fin de formation DCLIC.  ## Fonctionnalités - Inscription et connexion (SQLite) - Profil utilisateur complet - Ajout, modification et suppression de notes - Interface moderne Material Design
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
